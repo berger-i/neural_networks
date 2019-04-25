@@ -1,2 +1,2 @@
 # neural_networks
-code for neural networks
+neural networks
