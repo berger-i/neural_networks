@@ -20,9 +20,7 @@ class SLP(object):
         print('x\n',x)
         print ('product\n',product)
         print ('y\n',y)
-        return y
-    pass    
-
+        return y        
 
 if __name__ == "__main__":
     num_of_input_neurons = 3 
