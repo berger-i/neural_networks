@@ -12,6 +12,9 @@ class SLP(object):
         out_str += '\nweights=\n' + str(self.weights)
         return out_str        
 
+    def learn(self, x, y):
+        pass
+
     def run(self, x):
         x_with_bias = np.vstack(([1], x))
         product = np.matmul(self.weights, x_with_bias)
