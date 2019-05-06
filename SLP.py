@@ -40,7 +40,10 @@ class SLP(object):
         product = np.matmul(self.weights, x_with_bias)
         y = product.sum(axis=1)
         if self.activation == 'heaviside':
+            #TODO fix pylint
+            # pylint: disable=E1103
             y = np.heaviside(y, 0)
+            # pylint: enable=E1103
 
 
         #print('self.weights\n',self.weights)
