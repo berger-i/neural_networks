@@ -4,3 +4,4 @@ images, labels = mndata.load_training()
 images = images[:10]
 labels = labels[:10]
 pass
+print (1)
